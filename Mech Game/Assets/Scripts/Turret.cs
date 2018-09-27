@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
-public class Turret : MonoBehaviour {
+public class Turret : NetworkBehaviour {
     Transform player;
     public Transform gunEnd;
     public GameObject bullet;
