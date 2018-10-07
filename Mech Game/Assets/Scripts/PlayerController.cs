@@ -31,10 +31,28 @@ public class PlayerController : NetworkBehaviour
         //transform.Rotate(0, x, 0);
         characterController.Move(moveDirection * Time.deltaTime * moveSpeed);
 
-
-        if (Input.GetButtonDown("Fire1"))
+        if (moveDirection.x != 0 || moveDirection.z != 0)
         {
-            CmdFire();
+            if (!IsInvoking("WalkSound"))
+            {
+                InvokeRepeating("WalkSound", 0f, .75f);
+            }
+        }
+        else
+        {
+            CancelInvoke("WalkSound");
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (!IsInvoking("CmdFire"))
+            {
+                InvokeRepeating("CmdFire", 0f, 0.1f);
+            }
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            CancelInvoke("CmdFire");
         }
     }
 
@@ -50,11 +68,13 @@ public class PlayerController : NetworkBehaviour
         {
             //if the mech is not moving play the the animation for idle
             //bodyAnimator.SetBool("IsMoving", false);
+
         }
         else
         {
             //if the mech is moving play the the animation for walking
             //bodyAnimator.SetBool("IsMoving", true);
+            
         }
 
         RaycastHit hit;
@@ -78,6 +98,11 @@ public class PlayerController : NetworkBehaviour
 
     }
 
+    public void WalkSound()
+    {
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.Walk);
+    }
+
     // This [Command] code is called on the Client …
     // … but it is run on the Server!
     [Command]
@@ -91,6 +116,9 @@ public class PlayerController : NetworkBehaviour
 
         // Spawn the bullet on the Clients
         NetworkServer.Spawn(bullet);
+
+        //play the gunfire sound from the SoundManager
+        SoundManager.Instance.PlayOneShot(SoundManager.Instance.gunFire);
 
         // Destroy the bullet after 2 seconds
         Destroy(bullet, 2.0f);
