@@ -5,6 +5,7 @@ public class PlayerController : NetworkBehaviour
 {
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+    public Transform bulletSpawn2;
     public LayerMask layerMask; //where the raycast will hit
     public float moveSpeed = 2;
 
@@ -110,23 +111,27 @@ public class PlayerController : NetworkBehaviour
     {
         // Create the Bullet from the Bullet Prefab
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
+        var bullet2 = (GameObject)Instantiate(bulletPrefab, bulletSpawn2.position, bulletSpawn2.rotation);
 
         // Add velocity to the bullet
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * 20;
+        bullet2.GetComponent<Rigidbody>().velocity = bullet2.transform.forward * 20;
 
         // Spawn the bullet on the Clients
         NetworkServer.Spawn(bullet);
+        NetworkServer.Spawn(bullet2);
 
         //play the gunfire sound from the SoundManager
         SoundManager.Instance.PlayOneShot(SoundManager.Instance.gunFire);
 
         // Destroy the bullet after 2 seconds
         Destroy(bullet, 2.0f);
+        Destroy(bullet2, 2.0f);
     }
 
     public override void OnStartLocalPlayer()
     {
         Camera.main.GetComponent<CameraFollow>().setTarget(gameObject.transform);
-        GetComponent<MeshRenderer>().material.color = Color.blue;
+        //GetComponent<MeshRenderer>().material.color = Color.blue;   ///not using for mech prefab
     }
 }
