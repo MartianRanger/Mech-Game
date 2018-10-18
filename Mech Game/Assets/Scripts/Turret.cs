@@ -10,7 +10,7 @@ public class Turret : NetworkBehaviour {
 	// Use this for initialization
 	void Awake()
     {
-        player = GameObject.FindWithTag("Player").transform;
+        //player = GameObject.FindWithTag("Player").transform;
     }
 	
 	// Update is called once per frame
