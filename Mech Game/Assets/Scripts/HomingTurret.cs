@@ -24,11 +24,9 @@ public class HomingTurret : NetworkBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");//finding enemy...
         float shortestDistance = Mathf.Infinity;//if havent found enemy, we have infinite distance to enemy.
         GameObject nearestEnemy = null;
-        Debug.Log(transform.position);
         Debug.Log(player.transform.position);
             float distanceToEnemy = Vector3.Distance(transform.position, player.transform.position);//get distance of that enemy
         Debug.Log(distanceToEnemy);
-
         if (distanceToEnemy < shortestDistance) //if it's the shortest distance that we find
             {
                 shortestDistance = distanceToEnemy;//set this distance as shortest enemy distance
@@ -55,11 +53,11 @@ public class HomingTurret : NetworkBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * turnSpeed).eulerAngles;//smooth rotate
         partToRotate.rotation = Quaternion.Euler(0f, rotation.y, 0f); */
-
+        Debug.Log(target.transform.position + " BOOGIE!");
         //Current Method right now
         Vector3 targetPosition = new Vector3(target.transform.position.x, transform.position.y, target.transform.position.z);
         transform.localRotation = Quaternion.Euler(0, targetPosition.y, 0);
-        transform.LookAt(targetPosition);
+        transform.LookAt(-targetPosition);
 
         if (fireCountdown <= 0) //time to shoot
         {
