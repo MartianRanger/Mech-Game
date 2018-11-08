@@ -11,13 +11,16 @@ public class PlayerController : NetworkBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 currentLookTarget = Vector3.zero;
-    private CharacterController characterController;
-    public Animator charAnimator;
+    private  CharacterController characterController;
+    public Animator mAnimator;
+    public GameObject mLegs;
+
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        charAnimator = GetComponent<Animator>();
+        mAnimator = mLegs.GetComponentInChildren<Animator>();
+        
     }
 
     void Update()
@@ -36,16 +39,22 @@ public class PlayerController : NetworkBehaviour
 
         if (moveDirection.x != 0 || moveDirection.z != 0)
         {
+           
+
             if (!IsInvoking("WalkSound"))
             {
                 InvokeRepeating("WalkSound", 0f, .75f);
-                charAnimator.SetBool("IsDown", true);
+               // mAnimator.SetBool("IsDown", true);
+
+
             }
         }
         else
         {
             CancelInvoke("WalkSound");
-            charAnimator.SetBool("IsDown", false);
+           // mAnimator.SetBool("IsDown", false);
+
+
         }
 
         if (Input.GetMouseButtonDown(0))
@@ -71,15 +80,13 @@ public class PlayerController : NetworkBehaviour
 
         if (moveDirection == Vector3.zero)
         {
-            //if the mech is not moving play the the animation for idle
-            //bodyAnimator.SetBool("IsMoving", false);
 
+            mAnimator.SetBool("IsDown", false);
         }
         else
         {
-            //if the mech is moving play the the animation for walking
-            //bodyAnimator.SetBool("IsMoving", true);
-            
+            mAnimator.SetBool("IsDown", true);
+
         }
 
         RaycastHit hit;
