@@ -12,10 +12,12 @@ public class PlayerController : NetworkBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 currentLookTarget = Vector3.zero;
     private CharacterController characterController;
+    public Animator charAnimator;
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        charAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,11 +39,13 @@ public class PlayerController : NetworkBehaviour
             if (!IsInvoking("WalkSound"))
             {
                 InvokeRepeating("WalkSound", 0f, .75f);
+                charAnimator.SetBool("IsDown", true);
             }
         }
         else
         {
             CancelInvoke("WalkSound");
+            charAnimator.SetBool("IsDown", false);
         }
 
         if (Input.GetMouseButtonDown(0))

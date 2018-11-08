@@ -1847,6 +1847,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   moveSpeed: 3
+  charAnimator: {fileID: 0}
 --- !u!114 &114952525003618932
 MonoBehaviour:
   m_ObjectHideFlags: 1
