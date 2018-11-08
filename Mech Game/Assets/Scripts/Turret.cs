@@ -1,24 +1,28 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
 
-public class Turret : NetworkBehaviour {
+public class Turret : MonoBehaviour {
     Transform player;
     public Transform gunEnd;
     public GameObject bullet;
 	// Use this for initialization
 	void Awake()
     {
-        //player = GameObject.FindWithTag("Player").transform;
+        InvokeRepeating("UpdateTarget", 0f, 0.5f);//search target right at beginning, at a rate of .5 seconds
+        Debug.Log("Really?");
     }
-	
-	// Update is called once per frame
-	void Update () {
-        transform.LookAt(player);
+
+    // Update is called once per frame
+    void UpdateTarget () {
+        /*if (player = null)
+            return;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        transform.LookAt(player.transform.position);*/
 	}
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("PIZZA");
         if(other.gameObject.tag=="Player")
         {
             StartCoroutine("Shooting");

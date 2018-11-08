@@ -21,8 +21,9 @@ GameObject:
   - component: {fileID: 4945656384894032}
   - component: {fileID: 95789137726892832}
   - component: {fileID: 114362924567911230}
-  - component: {fileID: 114087199359349380}
   - component: {fileID: 114038033021701066}
+  - component: {fileID: 114878574568098364}
+  - component: {fileID: 65755506205470776}
   m_Layer: 0
   m_Name: SimpleSciFiTurret
   m_TagString: Untagged
@@ -291,6 +292,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1485438083977640}
   m_Mesh: {fileID: 4300000, guid: fb9d5a87f4e06a2449e0939a784a004e, type: 3}
+--- !u!65 &65755506205470776
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097132350645948}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95789137726892832
 Animator:
   serializedVersion: 3
@@ -327,19 +340,6 @@ MonoBehaviour:
   turnSpeed: 0
   bulletPrefab: {fileID: 164378, guid: 340c6091a3ecf4a44aaeea6b6e1e2df4, type: 2}
   firePoint: {fileID: 4498335213490060}
---- !u!114 &114087199359349380
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1097132350645948}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bd140e05df361f448b2af76ebf4dac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gunEnd: {fileID: 4498335213490060}
-  bullet: {fileID: 164378, guid: 340c6091a3ecf4a44aaeea6b6e1e2df4, type: 2}
 --- !u!114 &114362924567911230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -370,5 +370,18 @@ MonoBehaviour:
     i13: 216
     i14: 201
     i15: 233
-  m_ServerOnly: 1
+  m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114878574568098364
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1097132350645948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd140e05df361f448b2af76ebf4dac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunEnd: {fileID: 4498335213490060}
+  bullet: {fileID: 164378, guid: 340c6091a3ecf4a44aaeea6b6e1e2df4, type: 2}
