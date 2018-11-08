@@ -68,10 +68,15 @@ public class PlayerController : NetworkBehaviour
         {
             animator.SetBool("Firing", true);
         }
-        //else
-        //{
-        //    animator.SetBool("Firing", false);
-        //}
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            animator.SetBool("isJumping", true);
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            animator.SetBool("isJumping", false);
+        }
 
     }
 
