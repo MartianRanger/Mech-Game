@@ -7,15 +7,19 @@ public class PlayerController : NetworkBehaviour
     public Transform bulletSpawn;
     public Transform bulletSpawn2;
     public LayerMask layerMask; //where the raycast will hit
-    public float moveSpeed = 2;
+    public float moveSpeed = 5;
 
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 currentLookTarget = Vector3.zero;
     private CharacterController characterController;
 
+    private Animator animator;
+
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -38,10 +42,12 @@ public class PlayerController : NetworkBehaviour
             {
                 InvokeRepeating("WalkSound", 0f, .75f);
             }
+            animator.SetBool("isWalking", true);
         }
         else
         {
             CancelInvoke("WalkSound");
+            animator.SetBool("isWalking", false);
         }
 
         if (Input.GetMouseButtonDown(0))
@@ -50,11 +56,23 @@ public class PlayerController : NetworkBehaviour
             {
                 InvokeRepeating("CmdFire", 0f, 0.1f);
             }
+            animator.SetBool("Firing", true);
         }
         if (Input.GetMouseButtonUp(0))
         {
             CancelInvoke("CmdFire");
+            animator.SetBool("Firing", false);
         }
+
+        if (Input.GetMouseButton(0))
+        {
+            animator.SetBool("Firing", true);
+        }
+        //else
+        //{
+        //    animator.SetBool("Firing", false);
+        //}
+
     }
 
     //for animation and raycasting

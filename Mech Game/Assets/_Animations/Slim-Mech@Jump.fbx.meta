@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: fecbee874bd21c74481681803ee86294
+timeCreated: 1541661442
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CockPit_Clavical_joint9
+    100002: CockPit_LShoulder_joint11
+    100004: CockPit_Pelvis_joint8
+    100006: CockPit_RShoulder_joint10
+    100008: joint5
+    100010: joint6
+    100012: joint7
+    100014: L_Ankle
+    100016: L_Arm_Inner_Elbow_joint15
+    100018: L_Arm_Inner_Hand_joint16
+    100020: L_Arm_Inner_joint
+    100022: L_Hip
+    100024: L_ikHandle11
+    100026: L_Knee
+    100028: LElbow_joint2
+    100030: LGrabHandle
+    100032: LHand_joint3
+    100034: LowerPiston
+    100036: LowerPiston_Nub
+    100038: LowerPistonR
+    100040: LowerPistonR_Nub
+    100042: LShoulder_joint1
+    100044: LShoulder_Top_joint4
+    100046: R_Ankle1
+    100048: R_Foot_joint11
+    100050: R_Foot_joint12
+    100052: R_Foot_joint13
+    100054: R_Hip1
+    100056: R_ikHandle16
+    100058: R_Knee1
+    100060: RArm_Inner_Elbow_joint16
+    100062: RArm_Inner_Hand_joint17
+    100064: RArm_Inner_joint1
+    100066: RElbow_joint2
+    100068: RGrabHandle1
+    100070: RHand_joint3
+    100072: RShoulder_joint1
+    100074: RShoulder_Top_joint4
+    100076: //RootNode
+    100078: UpperPiston
+    100080: UpperPiston_Nub
+    100082: UpperPistonR
+    100084: UpperPistonR_Nub
+    400000: CockPit_Clavical_joint9
+    400002: CockPit_LShoulder_joint11
+    400004: CockPit_Pelvis_joint8
+    400006: CockPit_RShoulder_joint10
+    400008: joint5
+    400010: joint6
+    400012: joint7
+    400014: L_Ankle
+    400016: L_Arm_Inner_Elbow_joint15
+    400018: L_Arm_Inner_Hand_joint16
+    400020: L_Arm_Inner_joint
+    400022: L_Hip
+    400024: L_ikHandle11
+    400026: L_Knee
+    400028: LElbow_joint2
+    400030: LGrabHandle
+    400032: LHand_joint3
+    400034: LowerPiston
+    400036: LowerPiston_Nub
+    400038: LowerPistonR
+    400040: LowerPistonR_Nub
+    400042: LShoulder_joint1
+    400044: LShoulder_Top_joint4
+    400046: R_Ankle1
+    400048: R_Foot_joint11
+    400050: R_Foot_joint12
+    400052: R_Foot_joint13
+    400054: R_Hip1
+    400056: R_ikHandle16
+    400058: R_Knee1
+    400060: RArm_Inner_Elbow_joint16
+    400062: RArm_Inner_Hand_joint17
+    400064: RArm_Inner_joint1
+    400066: RElbow_joint2
+    400068: RGrabHandle1
+    400070: RHand_joint3
+    400072: RShoulder_joint1
+    400074: RShoulder_Top_joint4
+    400076: //RootNode
+    400078: UpperPiston
+    400080: UpperPiston_Nub
+    400082: UpperPistonR
+    400084: UpperPistonR_Nub
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

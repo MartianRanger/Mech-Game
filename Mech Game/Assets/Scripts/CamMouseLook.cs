@@ -10,13 +10,11 @@ public class CamMouseLook : MonoBehaviour {
 
     GameObject character;
 
-	// Use this for initialization
 	void Start () {
 
         character = this.transform.parent.gameObject;// character is camera's parent
 	}
 	
-	// Update is called once per frame
 	void Update () {
 
         var md = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));// mouse delta (movement of mouse)

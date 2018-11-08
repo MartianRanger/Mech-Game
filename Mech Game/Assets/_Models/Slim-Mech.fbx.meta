@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 4466a62f4424fd2428b868878b2aa877
+timeCreated: 1541660736
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body_Group
+    100002: CockPit_Chair
+    100004: CockPit_Clavical_joint9
+    100006: CockPit_Controls
+    100008: CockPit_Internal
+    100010: CockPit_LShoulder_joint11
+    100012: CockPit_Pelvis_joint8
+    100014: CockPit_RShoulder_joint10
+    100016: CockPit_Shell
+    100018: Exo_Skin_Body
+    100020: joint5
+    100022: joint6
+    100024: joint7
+    100026: L_Ankle
+    100028: L_Arm_Inner_Elbow_joint15
+    100030: L_Arm_Inner_Hand_joint16
+    100032: L_Arm_Inner_joint
+    100034: L_Hip
+    100036: L_ikHandle11
+    100038: L_Knee
+    100040: LArm_Inner_Group
+    100042: Larm_Lower
+    100044: Larm_Lower 1
+    100046: Larm_Lower2
+    100048: Larm_Mid
+    100050: Larm_Mid 1
+    100052: Larm_Mid2
+    100054: LArm_Outer_Group
+    100056: LArm_Poly_Group
+    100058: Larm_Upper
+    100060: Larm_Upper 1
+    100062: Larm_Upper2
+    100064: Left_Leg_Group
+    100066: LElbow_joint2
+    100068: LGrabHandle
+    100070: LHand_joint3
+    100072: LLowerPistonPoly
+    100074: LowerPiston
+    100076: LowerPiston_Nub
+    100078: LowerPistonR
+    100080: LowerPistonR_Nub
+    100082: LShoulder_joint1
+    100084: LShoulder_Top_joint4
+    100086: LUpperPistonPoly
+    100088: MechModelGroup
+    100090: polySurface258
+    100092: polySurface258 1
+    100094: polySurface261
+    100096: polySurface265
+    100098: polySurface266
+    100100: polySurface267
+    100102: polySurface268
+    100104: polySurface269
+    100106: polySurface270
+    100108: R_Ankle1
+    100110: R_Arm_Inner_Group
+    100112: R_Arm_Outer_Group
+    100114: R_Foot_joint11
+    100116: R_Foot_joint12
+    100118: R_Foot_joint13
+    100120: R_Hip1
+    100122: R_ikHandle16
+    100124: R_Knee1
+    100126: RArm_Inner_Elbow_joint16
+    100128: RArm_Inner_Hand_joint17
+    100130: RArm_Inner_joint1
+    100132: RArm_Poly_Group
+    100134: RElbow_joint2
+    100136: RGrabHandle1
+    100138: RHand_joint3
+    100140: Right_Leg_Group
+    100142: RLowerPistonPoly1
+    100144: RShoulder_joint1
+    100146: RShoulder_Top_joint4
+    100148: RUpperPistonPoly1
+    100150: //RootNode
+    100152: UpperPiston
+    100154: UpperPiston_Nub
+    100156: UpperPistonR
+    100158: UpperPistonR_Nub
+    100160: ViewInterior
+    400000: Body_Group
+    400002: CockPit_Chair
+    400004: CockPit_Clavical_joint9
+    400006: CockPit_Controls
+    400008: CockPit_Internal
+    400010: CockPit_LShoulder_joint11
+    400012: CockPit_Pelvis_joint8
+    400014: CockPit_RShoulder_joint10
+    400016: CockPit_Shell
+    400018: Exo_Skin_Body
+    400020: joint5
+    400022: joint6
+    400024: joint7
+    400026: L_Ankle
+    400028: L_Arm_Inner_Elbow_joint15
+    400030: L_Arm_Inner_Hand_joint16
+    400032: L_Arm_Inner_joint
+    400034: L_Hip
+    400036: L_ikHandle11
+    400038: L_Knee
+    400040: LArm_Inner_Group
+    400042: Larm_Lower
+    400044: Larm_Lower 1
+    400046: Larm_Lower2
+    400048: Larm_Mid
+    400050: Larm_Mid 1
+    400052: Larm_Mid2
+    400054: LArm_Outer_Group
+    400056: LArm_Poly_Group
+    400058: Larm_Upper
+    400060: Larm_Upper 1
+    400062: Larm_Upper2
+    400064: Left_Leg_Group
+    400066: LElbow_joint2
+    400068: LGrabHandle
+    400070: LHand_joint3
+    400072: LLowerPistonPoly
+    400074: LowerPiston
+    400076: LowerPiston_Nub
+    400078: LowerPistonR
+    400080: LowerPistonR_Nub
+    400082: LShoulder_joint1
+    400084: LShoulder_Top_joint4
+    400086: LUpperPistonPoly
+    400088: MechModelGroup
+    400090: polySurface258
+    400092: polySurface258 1
+    400094: polySurface261
+    400096: polySurface265
+    400098: polySurface266
+    400100: polySurface267
+    400102: polySurface268
+    400104: polySurface269
+    400106: polySurface270
+    400108: R_Ankle1
+    400110: R_Arm_Inner_Group
+    400112: R_Arm_Outer_Group
+    400114: R_Foot_joint11
+    400116: R_Foot_joint12
+    400118: R_Foot_joint13
+    400120: R_Hip1
+    400122: R_ikHandle16
+    400124: R_Knee1
+    400126: RArm_Inner_Elbow_joint16
+    400128: RArm_Inner_Hand_joint17
+    400130: RArm_Inner_joint1
+    400132: RArm_Poly_Group
+    400134: RElbow_joint2
+    400136: RGrabHandle1
+    400138: RHand_joint3
+    400140: Right_Leg_Group
+    400142: RLowerPistonPoly1
+    400144: RShoulder_joint1
+    400146: RShoulder_Top_joint4
+    400148: RUpperPistonPoly1
+    400150: //RootNode
+    400152: UpperPiston
+    400154: UpperPiston_Nub
+    400156: UpperPistonR
+    400158: UpperPistonR_Nub
+    400160: ViewInterior
+    2100000: lambert7
+    2100002: Rubber
+    2100004: lambert8
+    2100006: Metal_Gun
+    2100008: Glass_CockPit
+    4300000: LLowerPistonPoly
+    4300002: LUpperPistonPoly
+    4300004: polySurface265
+    4300006: polySurface267
+    4300008: polySurface269
+    4300010: RLowerPistonPoly1
+    4300012: RUpperPistonPoly1
+    4300014: polySurface266
+    4300016: polySurface268
+    4300018: polySurface270
+    4300020: Larm_Upper
+    4300022: Larm_Mid
+    4300024: Larm_Lower
+    4300026: polySurface261
+    4300028: Larm_Mid2
+    4300030: Larm_Upper2
+    4300032: Larm_Lower2
+    4300034: polySurface258
+    4300036: Exo_Skin_Body
+    4300038: ViewInterior
+    4300040: CockPit_Controls
+    4300042: CockPit_Chair
+    9500000: //RootNode
+    13700000: CockPit_Chair
+    13700002: CockPit_Controls
+    13700004: Exo_Skin_Body
+    13700006: Larm_Lower 1
+    13700008: Larm_Lower2
+    13700010: Larm_Mid 1
+    13700012: Larm_Mid2
+    13700014: Larm_Upper 1
+    13700016: Larm_Upper2
+    13700018: LLowerPistonPoly
+    13700020: LUpperPistonPoly
+    13700022: polySurface258 1
+    13700024: polySurface261
+    13700026: polySurface265
+    13700028: polySurface266
+    13700030: polySurface267
+    13700032: polySurface268
+    13700034: polySurface269
+    13700036: polySurface270
+    13700038: RLowerPistonPoly1
+    13700040: RUpperPistonPoly1
+    13700042: ViewInterior
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 50
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

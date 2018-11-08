@@ -6,14 +6,15 @@ public class CameraFollow : MonoBehaviour
 {
 
     public Transform playerTransform;
-    public int depth = -20;
+    public int depth = -75;
+    public int height = 60;
 
     // Update is called once per frame
     void Update()
     {
         if (playerTransform != null)
         {
-            transform.position = playerTransform.position + new Vector3(0, 12, depth);
+            transform.position = playerTransform.position + new Vector3(0, height, depth);
         }
     }
 
