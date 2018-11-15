@@ -6,22 +6,12 @@ using UnityEngine.Networking;
 public class Turret : MonoBehaviour {
     GameObject player;
     public Transform gunEnd;
-    public GameObject bullet;
-    //Use this for initialization
-
-    void Awake()
-    {
-    }
+    public GameObject turretMissile;
 
 
     //p Update is called once per frame
     void Update () {
         
-        //Debug.Log("Player is at " + player.transform.position);
-
-        //player = GameObject.FindWithTag("Player").transform;
-
-
         if (NetworkManager.singleton.IsClientConnected())
         {
             Debug.Log("Client is connected detected");
@@ -45,18 +35,18 @@ public class Turret : MonoBehaviour {
             StartCoroutine("Shooting");
         }
     }
-    void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            StopCoroutine("Shooting");
-        }
-    }
+
+    //[Command]
     IEnumerator Shooting()
     {
         while (true)
         {
-            Instantiate(bullet, gunEnd.position, gunEnd.rotation);
+            Instantiate(turretMissile, gunEnd.position, gunEnd.rotation);
+
+            //NetworkServer.Spawn(turretMissile);
+
+            //Destroy(turretMissile, 2.0f);
+
             yield return new WaitForSeconds(2);
         }
     }

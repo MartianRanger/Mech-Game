@@ -550,6 +550,7 @@ MonoBehaviour:
   - {fileID: 100000, guid: 3e0ad9186dd74b041a0b0d17c07c610b, type: 2}
   - {fileID: 1240992248196424, guid: 5af05abbd5a1e6a409d27aaa4279e837, type: 2}
   - {fileID: 1435072884680324, guid: 65d39797b39b9b3429473eb18b4f279d, type: 2}
+  - {fileID: 164378, guid: 340c6091a3ecf4a44aaeea6b6e1e2df4, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -942,8 +943,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1067048126}
-  m_LocalRotation: {x: 0.03929537, y: 0.9530908, z: 0.26467007, w: -0.14150469}
-  m_LocalPosition: {x: 6.0320907, y: -41.969757, z: 24.35465}
+  m_LocalRotation: {x: 0.07999677, y: 0.9046466, z: 0.19553284, w: -0.37011075}
+  m_LocalPosition: {x: 16.75602, y: -48.06113, z: 19.904034}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4742699441328944}
   - component: {fileID: 137533914725734406}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RUpperPistonPoly1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35,7 +35,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4333824870558706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LShoulder_Top_joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4614448758808796}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: joint7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4980468170288564}
   - component: {fileID: 137179816270459274}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Controls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,7 +81,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4149795385447952}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_ikHandle11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4024874310809474}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UpperPiston_Nub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +111,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4616062186465756}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LGrabHandle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4290398089676538}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RGrabHandle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4143304717797242}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LArm_Inner_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4032260584146666}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RShoulder_Top_joint4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4858161969455172}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Clavical_joint9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4845306953692612}
   - component: {fileID: 137054651150512002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface267
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4548163338134378}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Pelvis_joint8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4813381977597326}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Left_Leg_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4595706030788654}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Ankle1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4096951085331638}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_LShoulder_joint11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4638705147599952}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface258
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4953766563020350}
   - component: {fileID: 137421417638530262}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface261
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4174020469811578}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4880490403431834}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Knee
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +323,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4073957678329024}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: MechModelGroup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,7 +338,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4180058840157900}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Mid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4295277339015138}
   - component: {fileID: 137149434425143284}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface258 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -375,7 +375,9 @@ GameObject:
   - component: {fileID: 114660458416534598}
   - component: {fileID: 143423306769064244}
   - component: {fileID: 82280100207679718}
-  m_Layer: 0
+  - component: {fileID: 136473881564131556}
+  - component: {fileID: 114296883540684330}
+  m_Layer: 12
   m_Name: Slim-Mech
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -390,7 +392,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4343598491097652}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Ankle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +408,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4515879595938730}
   - component: {fileID: 137859300699169628}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface265
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -421,7 +423,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4148589537261084}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LArm_Outer_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +438,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4574776708092174}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RArm_Inner_Hand_joint17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -451,7 +453,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4563690572958276}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowerPiston
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -467,7 +469,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055168684090056}
   - component: {fileID: 137134787973147420}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Lower 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -482,7 +484,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4180267701647002}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Foot_joint12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +499,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4528487151154092}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Hip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,7 +514,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4435016372379040}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_RShoulder_joint10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -527,7 +529,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4073871069358624}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RElbow_joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +544,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4954142451027526}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RArm_Inner_joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +563,7 @@ GameObject:
   - component: {fileID: 114263964491768650}
   - component: {fileID: 114305653348926194}
   - component: {fileID: 114502677779091326}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Healthbar Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +578,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4418995508035498}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_ikHandle16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +593,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4435594580057572}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LElbow_joint2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +608,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4240312499150944}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Hip1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +625,7 @@ GameObject:
   - component: {fileID: 224303826475210236}
   - component: {fileID: 222867570301351524}
   - component: {fileID: 114967794116971724}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +640,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4412163616808524}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowerPistonR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -653,7 +655,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4475306625755298}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LShoulder_joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4355510066149532}
   - component: {fileID: 137908954502908072}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RLowerPistonPoly1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +687,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4312274400295010}
   - component: {fileID: 137591413218231318}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Upper 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -701,7 +703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4783413201883242}
   - component: {fileID: 137717476062882986}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Lower2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +718,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4780383559321486}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Arm_Inner_Elbow_joint15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4695900178348108}
   - component: {fileID: 137802331234526522}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Exo_Skin_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +749,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4870953962099086}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UpperPistonR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +765,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4845758122234446}
   - component: {fileID: 137262008314705066}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface269
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +780,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4912326381258132}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Internal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -793,7 +795,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4131901889225794}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UpperPiston
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +810,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4898445122517442}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Right_Leg_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -824,7 +826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4536309970465124}
   - component: {fileID: 137697314989094084}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LLowerPistonPoly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -839,7 +841,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4458155561630000}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Arm_Outer_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +856,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4569683372772028}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RShoulder_joint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +871,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4182820834398020}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Foot_joint11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -884,7 +886,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4046428462901222}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RHand_joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -901,7 +903,7 @@ GameObject:
   - component: {fileID: 224826782489130982}
   - component: {fileID: 222288377119336304}
   - component: {fileID: 114254297503452714}
-  m_Layer: 5
+  m_Layer: 12
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -916,7 +918,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4472969860293568}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Foot_joint13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,7 +933,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4146591939283600}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Arm_Inner_Hand_joint16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -946,7 +948,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4158722353938228}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: L_Arm_Inner_joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,7 +963,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4667186979022266}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bullet Spawn (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +978,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4134205426085518}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RArm_Inner_Elbow_joint16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -991,7 +993,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4940358504286732}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1008,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4565925191442242}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UpperPistonR_Nub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1023,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4294314972450100}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: joint6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1036,7 +1038,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4386566854185616}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Body_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1052,7 +1054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4469539731318960}
   - component: {fileID: 137845321840212640}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Upper2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1067,7 +1069,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4187019875748880}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1083,7 +1085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4946894855776408}
   - component: {fileID: 137742268428173822}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Mid 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1098,7 +1100,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4624537946164224}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: joint5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1113,7 +1115,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4024924234714660}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LHand_joint3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1128,7 +1130,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4234086023437114}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowerPistonR_Nub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1144,7 +1146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4479573853424926}
   - component: {fileID: 137069043448865134}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CockPit_Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,7 +1161,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4870873762978140}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Arm_Inner_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1174,7 +1176,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4441171203679090}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RArm_Poly_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1189,7 +1191,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4880908269265558}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: R_Knee1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1205,7 +1207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4011712665906884}
   - component: {fileID: 137596333191482224}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface266
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4006989089560052}
   - component: {fileID: 137410272418361388}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ViewInterior
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1236,7 +1238,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4206858988209698}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Bullet Spawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1252,7 +1254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4293499906289472}
   - component: {fileID: 137016846824733308}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LUpperPistonPoly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1267,7 +1269,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4125710894278124}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LowerPiston_Nub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1283,7 +1285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4536537695060368}
   - component: {fileID: 137267225618099054}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface268
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1299,7 +1301,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4579786420612976}
   - component: {fileID: 137427112296064544}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Larm_Mid2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1315,7 +1317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4025097481893128}
   - component: {fileID: 137245185940721050}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: polySurface270
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1330,7 +1332,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4319753954846092}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LArm_Poly_Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2676,6 +2678,20 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114296883540684330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297118004187736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1a999566a951b4fab73d9bbe894e92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyOnDeath: 1
+  currentHealth: 100
+  healthBar: {fileID: 224826782489130982}
 --- !u!114 &114305653348926194
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2770,6 +2786,19 @@ MonoBehaviour:
   m_SnapThreshold: 5
   m_InterpolateRotation: 1
   m_InterpolateMovement: 1
+--- !u!136 &136473881564131556
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1297118004187736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 2
+  m_Height: 6.75
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.5, z: 0}
 --- !u!137 &137016846824733308
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
