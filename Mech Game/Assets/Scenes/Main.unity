@@ -547,6 +547,7 @@ MonoBehaviour:
   m_OfflineScene: Main
   m_OnlineScene: Main
   m_SpawnPrefabs:
+  - {fileID: 100000, guid: 3e0ad9186dd74b041a0b0d17c07c610b, type: 2}
   - {fileID: 1240992248196424, guid: 5af05abbd5a1e6a409d27aaa4279e837, type: 2}
   - {fileID: 1435072884680324, guid: 65d39797b39b9b3429473eb18b4f279d, type: 2}
   m_CustomConfig: 0
@@ -768,8 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83edc8a139eeadf4f9f4496d4a3d1957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 1240992248196424, guid: 5af05abbd5a1e6a409d27aaa4279e837,
-    type: 2}
+  enemyPrefab: {fileID: 100000, guid: 3e0ad9186dd74b041a0b0d17c07c610b, type: 2}
   numberOfEnemies: 5
 --- !u!114 &651009820
 MonoBehaviour:
@@ -1582,8 +1582,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126436738}
-  m_LocalRotation: {x: 0.03929537, y: 0.9530908, z: 0.26467007, w: -0.14150469}
-  m_LocalPosition: {x: 14.273012, y: -59.039684, z: 51.495842}
+  m_LocalRotation: {x: 0.34156692, y: 0.048360698, z: 0.017601853, w: -0.9384474}
+  m_LocalPosition: {x: 3.4, y: -30.36, z: -33.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
