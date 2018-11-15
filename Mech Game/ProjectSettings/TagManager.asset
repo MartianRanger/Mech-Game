@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Player1
+  - Projectile
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - Floor
   - 
   - 
   - 

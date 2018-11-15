@@ -4,6 +4,9 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
+Assets/Plugins*
+Assets/SpaceNavigator*
+
 
 # Visual Studio cache directory
 .vs/
