@@ -7,8 +7,9 @@ MonoImporter:
   - bulletPrefab: {instanceID: 0}
   - bulletSpawn: {instanceID: 0}
   - bulletSpawn2: {instanceID: 0}
-  - mAnimator: {instanceID: 0}
-  - mLegs: {fileID: 1573729696013990, guid: ee311f744948d0346939164115f1e1f8, type: 2}
+  - mLegs: {fileID: 1501793057709192, guid: 5980474dc4150b848bb0badf30b1c037, type: 2}
+  - mArms: {fileID: 1281626958781542, guid: 5980474dc4150b848bb0badf30b1c037, type: 2}
+  - mEars: {fileID: 1753573825169262, guid: 5980474dc4150b848bb0badf30b1c037, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

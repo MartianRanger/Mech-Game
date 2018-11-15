@@ -1945,6 +1945,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4155659642911146}
+  - component: {fileID: 95187637396269892}
   m_Layer: 0
   m_Name: MechArm
   m_TagString: Player
@@ -4926,6 +4927,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4599223622511812}
+  - component: {fileID: 95716184752970656}
   m_Layer: 0
   m_Name: MechEars
   m_TagString: Untagged
@@ -13295,6 +13297,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95187637396269892
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1281626958781542}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2fc6d04cc1b08dd43b5e924069e3d098, type: 3}
+  m_Controller: {fileID: 9100000, guid: bf518506ea3918542b037326881c6868, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!95 &95716184752970656
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1753573825169262}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f33c5671e68a0e343bd58a9228def0cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!95 &95959340424849128
 Animator:
   serializedVersion: 3
@@ -13331,8 +13367,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   moveSpeed: 2
-  mAnimator: {fileID: 0}
   mLegs: {fileID: 1501793057709192}
+  mArms: {fileID: 1281626958781542}
+  mEars: {fileID: 1753573825169262}
 --- !u!114 &114614121763052014
 MonoBehaviour:
   m_ObjectHideFlags: 1

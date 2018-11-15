@@ -326,8 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e53711206647b140a52f7d43675841c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 4823017374392500, guid: 026fe5111f73db84dbb39720dadd4b89,
-    type: 2}
+  playerTransform: {fileID: 0}
   depth: -12
 --- !u!81 &332804714
 AudioListener:

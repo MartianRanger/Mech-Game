@@ -14,20 +14,26 @@ public class PlayerController : NetworkBehaviour
     private  CharacterController characterController;
     private Animator mAnimator;
     public GameObject mLegs;
+    private Animator mArmAnimator;
+    public GameObject mArms;
+    private Animator mEarsAnimator;
+    public GameObject mEars;
 
 
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
         mAnimator = mLegs.GetComponent<Animator>();
-        
+        mArmAnimator = mArms.GetComponent<Animator>();
+        mEarsAnimator = mEars.GetComponent<Animator>();
+
     }
 
     void Update()
     {
         if (!isLocalPlayer)
         {
-            Debug.Log("ejndnas");
+            Debug.Log("no local player");
             return;
             
         }
@@ -84,10 +90,14 @@ public class PlayerController : NetworkBehaviour
         {
 
             mAnimator.SetBool("IsDown", false);
+            mArmAnimator.SetBool("IsDown", false);
+            mEarsAnimator.SetBool("IsDown", false);
         }
         else
         {
             mAnimator.SetBool("IsDown", true);
+            mArmAnimator.SetBool("IsDown", true);
+            mEarsAnimator.SetBool("IsDown", true);
 
         }
 
