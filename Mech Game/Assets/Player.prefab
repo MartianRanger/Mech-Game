@@ -557,10 +557,14 @@ MonoBehaviour:
   bulletPrefab: {fileID: 1435072884680324, guid: 65d39797b39b9b3429473eb18b4f279d,
     type: 2}
   bulletSpawn: {fileID: 4756398000417200}
+  bulletSpawn2: {fileID: 0}
   layerMask:
     serializedVersion: 2
     m_Bits: 512
   moveSpeed: 2
+  mLegs: {fileID: 0}
+  mArms: {fileID: 0}
+  mEars: {fileID: 0}
 --- !u!114 &114917802970582576
 MonoBehaviour:
   m_ObjectHideFlags: 1
