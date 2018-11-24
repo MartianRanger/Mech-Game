@@ -680,9 +680,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: Template_3D
-  organizationId: 
+  cloudProjectId: 1f354eb7-f6ad-4153-9fd6-b08fe64b7c70
+  projectName: Multiplayer
+  organizationId: chrisross_unity
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
