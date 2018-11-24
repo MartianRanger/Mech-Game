@@ -4,6 +4,8 @@ using UnityEngine.Networking;
 public class PlayerController : NetworkBehaviour
 {
     public GameObject bulletPrefab;
+    public Camera mainMain;
+    
     public Transform bulletSpawn;
     public Transform bulletSpawn2;
     public LayerMask layerMask; //where the raycast will hit
@@ -12,7 +14,7 @@ public class PlayerController : NetworkBehaviour
     private Vector3 moveDirection = Vector3.zero;
     private Vector3 currentLookTarget = Vector3.zero;
     private  CharacterController characterController;
-    private Animator mAnimator;
+    //private Animator mAnimator;
     public GameObject mLegs;
     private Animator mArmAnimator;
     public GameObject mArms;
@@ -23,9 +25,10 @@ public class PlayerController : NetworkBehaviour
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
-        mAnimator = mLegs.GetComponent<Animator>();
-        mArmAnimator = mArms.GetComponent<Animator>();
-        mEarsAnimator = mEars.GetComponent<Animator>();
+        //mAnimator = mLegs.GetComponent<Animator>();
+        //mArmAnimator = mArms.GetComponent<Animator>();
+        //mEarsAnimator = mEars.GetComponent<Animator>();
+        mainMain= GetComponent<Camera>();
 
     }
 
@@ -89,15 +92,15 @@ public class PlayerController : NetworkBehaviour
         if (moveDirection == Vector3.zero)
         {
 
-            mAnimator.SetBool("IsDown", false);
-            mArmAnimator.SetBool("IsDown", false);
-            mEarsAnimator.SetBool("IsDown", false);
+           // mAnimator.SetBool("IsDown", false);
+           // mArmAnimator.SetBool("IsDown", false);
+           // mEarsAnimator.SetBool("IsDown", false);
         }
         else
         {
-            mAnimator.SetBool("IsDown", true);
-            mArmAnimator.SetBool("IsDown", true);
-            mEarsAnimator.SetBool("IsDown", true);
+            //mAnimator.SetBool("IsDown", true);
+            //mArmAnimator.SetBool("IsDown", true);
+          //  mEarsAnimator.SetBool("IsDown", true);
 
         }
 
@@ -116,7 +119,7 @@ public class PlayerController : NetworkBehaviour
                 // 2
                 Quaternion rotation = Quaternion.LookRotation(targetPosition - transform.position);
                 // 3
-                transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * 10.0f);
+                transform.rotation = Quaternion.Lerp(transform.rotation, rotation, Time.deltaTime * 100.0f);
             }
         }
 
