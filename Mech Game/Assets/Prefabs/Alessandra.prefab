@@ -9,11 +9,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450900}
   - component: {fileID: 114945372206897092}
-  - component: {fileID: 136631616420278326}
-  - component: {fileID: 54252144852614894}
-  - component: {fileID: 114731280351350222}
-  - component: {fileID: 114306374493663778}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Alessandra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +26,7 @@ GameObject:
   - component: {fileID: 428060}
   - component: {fileID: 3308124}
   - component: {fileID: 2302956}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,53 +112,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164378}
   m_IsPrefabParent: 1
---- !u!54 &54252144852614894
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164378}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &114306374493663778
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d67297355c6cb9428aee851eb8e8459, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114731280351350222
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 3
-  m_SendInterval: 0.1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!114 &114945372206897092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -193,18 +142,5 @@ MonoBehaviour:
     i13: 30
     i14: 45
     i15: 244
-  m_ServerOnly: 0
+  m_ServerOnly: 1
   m_LocalPlayerAuthority: 0
---- !u!136 &136631616420278326
-CapsuleCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164378}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.25
-  m_Height: 1.42
-  m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0}
